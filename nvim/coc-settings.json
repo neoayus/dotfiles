@@ -1,0 +1,26 @@
+{
+    // type script server 
+    "tsserver.enable": true,
+    "tsserver.formatOnType": true,
+    "javascript.suggest.autoImports": true,
+
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod"],
+            "trace.server": "verbose",
+            "filetypes": ["go"]
+        },
+
+        "intelephense": {
+            "command": "intelephense",
+            "args": ["--stdio"],
+            "filetypes": ["php"],
+            "initializationOptions": {
+                "storagePath": "/tmp/intelephense"
+            }
+        }
+    }
+    
+}
+

@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/ayus/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/ayus/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
+local package_path_str = "/home/ayus/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?/init.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?.lua;/home/ayus/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/ayus/.cache/nvim/packer_hererocks/2.1.1727870382/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,62 +76,62 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   fzf = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/fzf",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/fzf",
     url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
   gruvbox = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   ["gruvbox-material"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-polyglot"] = {
     loaded = true,
-    path = "/home/ayus/.local/share/nvim/site/pack/packer/start/vim-polyglot",
+    path = "/home/ayus/snap/code/174/.local/share/nvim/site/pack/packer/start/vim-polyglot",
     url = "https://github.com/sheerun/vim-polyglot"
   }
 }
