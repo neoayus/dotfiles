@@ -23,6 +23,10 @@ This document serves as a guide for setting up Arch Linux and includes a list of
 - **networkmanager**: Manage network connections.
 - **network-manager-applet**: GUI for NetworkManager.
 - **wireless_tools**: Tools for wireless networks.
+- **bluez-utils**: Bluetooth Utilities 
+- **blueman**: GUI Tool to connect to bluetooth 
+
+
 
 ### Bootloader
 - **grub**: GRUB bootloader.
