@@ -21,6 +21,12 @@ export EDITOR=$(which nvim)
 export SYSTEM_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
+## Java Environment
+export JAVA_HOME=/usr/lib/jvm/java-23-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
