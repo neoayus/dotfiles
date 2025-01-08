@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/sush/.local/share/nvim/site/pack/packer/start/gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/sush/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/sush/.local/share/nvim/site/pack/packer/start/packer.nvim",

@@ -38,6 +38,8 @@ return require('packer').startup(function(use)
   use 'sainnhe/gruvbox-material'  
   -- neoclide neovim  
   use {'neoclide/coc.nvim', branch = 'release'}
+  -- nvim jdlts 
+  use 'mfussenegger/nvim-jdtls'
 
   ----------------------------------------------------------------
   
