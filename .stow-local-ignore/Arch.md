@@ -128,4 +128,6 @@ This document lists the YAY packages I installed on my Arch system along with th
 ---
 This guide helps in tracking the purpose of each YAY package installed for easier system replication or troubleshooting.
 
+## Spotify 
+For Spotify Adblocker, i used : https://github.com/abba23/spotify-adblock-linux
 
