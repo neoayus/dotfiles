@@ -58,3 +58,8 @@ zinit light zsh-users/zsh-autosuggestions
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Shortcuts 
+alias notes='nvim ~/NotesVault' 
+alias work='nvim ~/Hub/stage' 
+alias repos='nvim ~/Hub/git' 
