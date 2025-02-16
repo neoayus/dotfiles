@@ -63,3 +63,8 @@ zinit light zsh-users/zsh-autosuggestions
 alias notes='nvim ~/NotesVault' 
 alias work='nvim ~/Hub/stage' 
 alias repos='nvim ~/Hub/git' 
+
+# navigation alias 
+alias .cache='cd ~/Hub/cache' 
+alias .github='cd ~/Hub/gitHub' 
+alias .stage='cd ~/Hub/stage' 
