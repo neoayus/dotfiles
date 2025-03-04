@@ -2,6 +2,10 @@
 
 This document serves as a guide for setting up Arch Linux and includes a list of explicitly installed packages with their purposes to replicate or troubleshoot the setup on another machine.
 
+# Linux Help : 
+- **Installation :** https://youtu.be/mWl4P6DOt9M?si=4P0d_5a0TmS-KJKv
+- **Mounting Problem :** https://youtu.be/utHUlE1d4SE?si=_5PQiIzLh5OHT240
+
 ## Essential Packages
 ### System Utilities
 - **alsa-utils**: For audio utilities.
@@ -130,4 +134,5 @@ This guide helps in tracking the purpose of each YAY package installed for easie
 
 ## Spotify 
 For Spotify Adblocker, i used : https://github.com/abba23/spotify-adblock-linux
+
 

@@ -48,3 +48,4 @@ Here is an example of how I manage screenshots using the `Print` key and `Shift 
 
 Feel free to explore the dotfiles and customize them according to your needs!
 
+***too lazy to check wha't in here but i prolly was inspired by this one to configure my linux the way it is rn :3***
