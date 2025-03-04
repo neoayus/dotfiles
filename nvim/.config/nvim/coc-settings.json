@@ -1,22 +1,4 @@
 {
-  "java.jdt.ls.java.home": "/usr/lib/jvm/java-23-openjdk",
-  "languageserver": {
-    "java": {
-      "command": "jdtls",
-      "args": [
-        "-data", "~/", 
-        "-configuration", "~/.local/share/jdt-language-server/config_linux",
-        "-jar", "~/.local/share/jdt-language-server/plugins/org.eclipse.equinox.launcher.gtk.linux.aarch64_1.2.1200.v20240924-2302.jar", 
-
-        "-vmargs",
-        "-Xms1G",
-        "-Xmx2G",
-        "-XX:+UseG1GC",
-        "-XX:+UseStringDeduplication" 
-      ],
-      "filetypes": ["java"]
-    }
-  },
   "coc.preferences.snippetSupport": true,
   "coc.preferences.autoImportFile": true,
   "coc.source.buffer.enable": true,
