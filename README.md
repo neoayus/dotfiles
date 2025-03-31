@@ -48,6 +48,14 @@ Here is an example of how I manage screenshots using the `Print` key and `Shift 
 
 Feel free to explore the dotfiles and customize them according to your needs!
 
-## SCREENSHOT : 
-![Desktop](./.stow-local-ignore/ss-desktop.png "trial for error pt.2")
+## SS's  : 
+
+- ### Workspace/Waybar  : 
+![Desktop](./.stow-local-ignore/ss-desktop.png "Workspace/waybar/hyprpaper")
+
+- ### Wofi (Application Launcher)  : 
+![Desktop](./.stow-local-ignore/ss-wofi.png "Wofi/Application Launcher")
+
+- ### Neofetch/Nvim/Cava
+![Desktop](./.stow-local-ignore/ss-tielesNall.png "TCHHH")
 
