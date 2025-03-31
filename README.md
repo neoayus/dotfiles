@@ -1,6 +1,6 @@
-# Dotfiles README
+# Dotfiles
 
-This is my personal dotfile configuration for my Linux setup.
+This is my personal dotfile configuration Arch linux. 
 
 ## Tiling Window Manager
 - **Hyprland**: My chosen tiling window manager for a fast and efficient workflow.
@@ -47,4 +47,7 @@ This is my personal dotfile configuration for my Linux setup.
 Here is an example of how I manage screenshots using the `Print` key and `Shift + Print`.
 
 Feel free to explore the dotfiles and customize them according to your needs!
+
+## SCREENSHOT : 
+![Desktop](../.stow-local-ignore/ss-desktop.png "trial for error")
 
