@@ -135,4 +135,10 @@ This guide helps in tracking the purpose of each YAY package installed for easie
 ## Spotify 
 For Spotify Adblocker, i used : https://github.com/abba23/spotify-adblock-linux
 
-
+## Microphpone 
+Since i was having some problems with my mic, that is because i din't had the right drivers and softwares to control how it behaves, these packages helped me fix that.. 
+- pipewire
+- pipewire-alsa 
+- pipewire-pulse 
+- " then i ran this command `systemctl --user enable --now pipewire pipewire-pulse ` 
+- and adjust sum equalisers inside 'alsamixer' package and you are good to go :) 
