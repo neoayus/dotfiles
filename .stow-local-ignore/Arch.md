@@ -141,4 +141,4 @@ Since i was having some problems with my mic, that is because i din't had the ri
 - pipewire-alsa 
 - pipewire-pulse 
 - " then i ran this command `systemctl --user enable --now pipewire pipewire-pulse ` 
-- and adjust sum equalisers inside 'alsamixer' package and you are good to go :) 
+- and adjust sum equalisers inside 'alsamixer' package and you are good to go :) PS: I forgot to save the configuration for alsomixer, here's how i did it using `sudo alsactl store ` 
