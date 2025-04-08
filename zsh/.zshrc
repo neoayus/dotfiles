@@ -64,7 +64,11 @@ alias notes='nvim ~/NotesVault'
 alias work='nvim ~/Hub/stage' 
 alias repos='nvim ~/Hub/git' 
 
+
 # navigation alias 
+alias .notes='cd ~/NotesVault' 
 alias .cache='cd ~/Hub/cache' 
 alias .github='cd ~/Hub/gitHub' 
 alias .stage='cd ~/Hub/stage' 
+alias .pbl='cd ~/Hub/stage/ProcessSchedulingSimulator' 
+
