@@ -6,6 +6,19 @@ This document serves as a guide for setting up Arch Linux and includes a list of
 - **Installation :** https://youtu.be/mWl4P6DOt9M?si=4P0d_5a0TmS-KJKv
 - **Mounting Problem :** https://youtu.be/utHUlE1d4SE?si=_5PQiIzLh5OHT240
 
+>> if still facing problem witth that 
+1. **Plug in your hard drive.**  
+2. **Open Disks utility:**
+   - Run in terminal: `sudo -E gnome-disks` *(if it doesn't open normally)*  
+3. **Select your hard drive** from the left panel.  
+4. **Click the gear icon** (⚙️ – additional partition options).  
+5. Select **“Edit Mount Options…”**  
+6. **Turn off** “User Session Defaults”.  
+7. **Check** “Mount at system startup”.  
+8. **Save** the changes.  
+9. **Reboot** your system.
+
+
 ## Essential Packages
 ### System Utilities
 - **alsa-utils**: For audio utilities.
