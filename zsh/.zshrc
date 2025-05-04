@@ -72,3 +72,4 @@ alias .github='cd ~/Hub/gitHub'
 alias .stage='cd ~/Hub/stage' 
 alias .pbl='cd ~/Hub/stage/ProcessSchedulingSimulator' 
 
+alias .react='cd ~/Hub/stage/react/'
