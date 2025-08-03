@@ -73,3 +73,25 @@ alias .stage='cd ~/Hub/stage'
 alias .pbl='cd ~/Hub/stage/ProcessSchedulingSimulator' 
 
 alias .react='cd ~/Hub/stage/react/'
+
+# keyboard backlid shortcuts 
+backlid() {
+  if [[ $# -ne 1 ]]; then
+    echo "Usage: kbdlight [0-3]  # 0=off,1=low,2=med,3=high"
+    return 1
+  fi
+
+  case "$1" in
+    0|1|2|3) ;;
+    *)
+      echo "Usage: kbdlight [0-3]  # invalid value"
+      return 1
+      ;;
+  esac
+
+  # refresh sudo timestamp so you don't get repeated prompts
+  sudo -v
+
+  echo "$1" | sudo tee /sys/class/leds/asus::kbd_backlight/brightness >/dev/null
+}
+
