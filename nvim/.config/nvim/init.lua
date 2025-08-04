@@ -5,9 +5,6 @@ require("core.keymaps")
 require("core.plugins") -- requiring plugin configuration lua file
 require ("core.plugin_config")
 
--- vs code fix 
-require("core.vscode_fix")
-
 -- fixing the errors with neoclide.coc-nvim 
 
 -- Some servers have issues with backup files, see #649
