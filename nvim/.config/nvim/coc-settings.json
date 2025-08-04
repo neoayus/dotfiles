@@ -2,6 +2,7 @@
   "coc.preferences.snippetSupport": true,
   "coc.preferences.autoImportFile": true,
   "coc.source.buffer.enable": true,
-  "coc.source.path.enable": true
+  "coc.source.path.enable": true,
+  "snippets.ultisnips.pythonPrompt": false
 }
 
