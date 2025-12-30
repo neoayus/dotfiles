@@ -22,7 +22,7 @@ export SYSTEM_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
 ## Java Environment
-export JAVA_HOME=/usr/lib/jvm/java-23-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-17-temurin 
 export PATH=$JAVA_HOME/bin:$PATH
 
 
@@ -61,6 +61,7 @@ zinit light zsh-users/zsh-autosuggestions
 
 # Shortcuts 
 alias notes='nvim ~/NotesVault' 
+alias sb='cd ~/Hub/springboot' 
 alias work='nvim ~/Hub/stage' 
 alias repos='nvim ~/Hub/git' 
 
