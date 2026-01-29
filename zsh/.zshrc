@@ -73,6 +73,10 @@ alias .react='cd ~/Hub/gitHub/react-revisit/'
 # hyprlock command 
 alias brb='hyprlock' 
 
+# commands to sleep and poweroff 
+alias gunnite='systemctl suspend' 
+alias bye='systemctl poweroff'
+
 # keyboard backlid command
 backlid() {
   if [[ $# -ne 1 ]]; then
