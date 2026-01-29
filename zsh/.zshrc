@@ -25,7 +25,8 @@ export VISUAL=$EDITOR
 export JAVA_HOME=/usr/lib/jvm/java-17-temurin 
 export PATH=$JAVA_HOME/bin:$PATH
 
-
+## Add Nvim to PATH for "Obsidian's Communit Plugin" 
+export PATH="/usr/bin/nvim:$PATH"
 
 
 ### Added by Zinit's installer
