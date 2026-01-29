@@ -1,3 +1,4 @@
+// not useful, since wlogout won't install on my system 
 {
     "label" : "shutdown",
     "action" : "systemctl poweroff",
