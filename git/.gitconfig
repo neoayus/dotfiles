@@ -1,0 +1,7 @@
+[user]
+	name = neoayus
+	email = ayus43@outlook.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
