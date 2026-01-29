@@ -60,23 +60,20 @@ zinit light zsh-users/zsh-autosuggestions
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Shortcuts 
-alias notes='nvim ~/NotesVault' 
-alias sb='cd ~/Hub/springboot' 
-alias work='nvim ~/Hub/stage' 
-alias repos='nvim ~/Hub/git' 
-
 
 # navigation alias 
-alias .notes='cd ~/NotesVault' 
+alias spring='cd ~/Hub/springboot' 
+alias repos='nvim ~/Hub/git' 
+alias .notes='cd ~/notes/' 
 alias .cache='cd ~/Hub/cache' 
 alias .github='cd ~/Hub/gitHub' 
-alias .stage='cd ~/Hub/stage' 
-alias .pbl='cd ~/Hub/stage/ProcessSchedulingSimulator' 
 
-alias .react='cd ~/Hub/stage/react-redraw/'
+alias .react='cd ~/Hub/gitHub/react-revisit/'
 
-# keyboard backlid shortcuts 
+# hyprlock command 
+alias brb='hyprlock' 
+
+# keyboard backlid command
 backlid() {
   if [[ $# -ne 1 ]]; then
     echo "Usage: kbdlight [0-3]  # 0=off,1=low,2=med,3=high"
