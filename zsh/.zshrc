@@ -98,10 +98,6 @@ backlid() {
   echo "$1" | sudo tee /sys/class/leds/asus::kbd_backlight/brightness >/dev/null
 }
 
-
-# Created by `pipx` on 2026-02-05 05:12:18
-export PATH="$PATH:/home/sush/.local/bin"
-
 # Spotify CLI Tool 
 export PATH=$PATH:/home/sush/.spicetify
 export PATH=$PATH:~/.spicetify
