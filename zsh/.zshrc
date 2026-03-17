@@ -21,6 +21,10 @@ export EDITOR=$(which nvim)
 export SYSTEM_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
+# qt6ct theme 
+export QT_QPA_PLATFORMTHEME=qt6ct
+export XDG_CURRENT_DESKTOP=KDE
+
 ## Java Environment
 export JAVA_HOME=/usr/lib/jvm/java-17-temurin 
 export PATH=$JAVA_HOME/bin:$PATH
@@ -105,4 +109,4 @@ export PATH=$PATH:$HOME/.spicetify
 alias gs='git status'
 
 # change feh default behaviour 
-alias feh='feh --scale-down --geometry'
+alias feh='feh --scale-down --auto-zoom --force-aliasing --geometry 1600x900' # in terminal 
