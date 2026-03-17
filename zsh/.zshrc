@@ -103,3 +103,6 @@ export PATH=$PATH:$HOME/.spicetify
 
 # git aliases 
 alias gs='git status'
+
+# change feh default behaviour 
+alias feh='feh --scale-down --geometry'
