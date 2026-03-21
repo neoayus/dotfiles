@@ -61,13 +61,13 @@ Personal Config. for Linux (Arch btw) with hyprland as window manager.
 
 ### Desktop / Waybar
 
-![Desktop](./.stow-local-ignore/ss-desktop.png)
+![desktop](./.stow-local-ignore/desktop.png)
 
 ### Wofi
 
-![Wofi](./.stow-local-ignore/ss-wofi.png)
+![wofi](./.stow-local-ignore/wofi.png)
 
 ### Terminal Setup
 
-![Terminal](./.stow-local-ignore/ss-tielesNall.png)
+![terminal](./.stow-local-ignore/tiles.png)
 
