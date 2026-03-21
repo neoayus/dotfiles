@@ -1,0 +1,11 @@
+google-chrome
+grub-customizer
+jdk17-temurin
+jdtls
+libva-vdpau-driver-shadow-nvidia
+neofetch
+spotify
+waypaper
+xf86-video-vmware
+yay
+
