@@ -2,8 +2,8 @@
 
 Personal Config. for Linux (Arch btw) with hyprland as window manager.
 
--[ArchInstall (the hard way)](./.stow-local-ignore/ArchInstall.md)
--[Wallpaper Dir](www.github.com/neoayus/.backgrounds)
+*[ArchInstall (the hard way)](./.stow-local-ignore/ArchInstall.md)
+*[Wallpaper Dir](www.github.com/neoayus/.backgrounds)
 
 ## Stack
 
