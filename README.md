@@ -5,6 +5,20 @@ Personal Config. for Linux (Arch btw) with hyprland as window manager.
 *[ArchInstall (the hard way)](./.stow-local-ignore/ArchInstall.md)
 *[Wallpaper Dir](www.github.com/neoayus/.backgrounds)
 
+# How To Install : 
+this method is only for new machines insatlling arch for the first time. 
+
+```
+git clone https://github.com/neoayus/dotfiles.git ~
+
+cd ~/dotfiles/ 
+
+chmod +x install.sh 
+
+bash install.sh 
+```
+
+
 ## Stack
 
 ### Window Manager
