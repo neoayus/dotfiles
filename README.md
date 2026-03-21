@@ -1,61 +1,73 @@
-# Dotfiles
+# .files 
 
-This is my personal dotfile configuration Arch linux. 
+Personal Config. for Linux (Arch btw) with hyprland as window manager.
 
-## Tiling Window Manager
-- **Hyprland**: My chosen tiling window manager for a fast and efficient workflow.
+[Need Help Installing Arch?](./.stow-local-ignore/ArchInstall.md)
 
-## Applications
-- **wofi**: Application launcher.
-- **waybar**: My status bar for system monitoring and quick access.
-- **nvim**: Text editor for coding and text manipulation.
-- **hyprshot**: Tool for taking screenshots.
-- **swaync**: Notification manager to keep track of alerts.
-- **hyprlock**: Lock screen utility.
-- **hyridle**: Monitors screen idleness.
-- **hyprpaper**: Wallpaper manager to set and change wallpapers.
-- **starship**: Customizable prompt for my terminal.
+## Stack
 
-## Fonts & Themes
-- **Cascadia Code**: Font inside the terminal for a clean look.
-- **nredfont**: Another font used for terminal aesthetics.
-- **nwg-look**: GTK application theme tool.
-- **lxappearance**: GTK theme manager.
-- **gt5ct**: GTK theme to change appearance of apps.
+### Window Manager
 
-## Shell and Plugin Management
-- **zsh**: My preferred shell for interactive use.
-- **zplug**: Plugin manager for zsh.
-- **Plugges**: Nvim plugin manager.
+* Hyprland
+
+### Core Apps
+
+* wofi — launcher
+* waybar — status bar
+* nvim — editor
+* hyprshot — screenshots
+* swaync — notifications
+* hyprlock — lock screen
+* hypridle — idle manager
+* hyprpaper — wallpapers
+* starship — shell prompt
+
+### Shell
+
+* zsh
+* zplug
+
+### Theming
+
+* nwg-look
+* lxappearance
+* qt5ct
+
+### Fonts
+
+* Cascadia Code
+* nerd fonts
+
+---
 
 ## Keybindings
-- **Screenshot**:
-  - `Print`: Capture a screenshot of a specific window.
-  - `Shift + Print`: Capture a selected area screenshot.
 
-- **Window Management**:
-  - `Alt` is my main modifier key.
-  - `Alt + o`: Open wofi application launcher.
-  - `Alt + c`: Close the currently selected application.
+### System
 
-- **Vim Navigation**: Used to move focus between windows.
+* `Alt + o` → launcher
+* `Alt + c` → close window
+* `Alt + Shift + l` → lock screen
 
-- **Lock Screen**:
-  - `Alt + Shift + l`: Lock screen.
+### Screenshots
 
-## Screenshot Example
-Here is an example of how I manage screenshots using the `Print` key and `Shift + Print`.
+* `Print` → All Windows 
+* `Shift + Print` → Specific Window
+* `alt + Print` → Full Screen
 
-Feel free to explore the dotfiles and customize them according to your needs!
 
-## SS's  : 
+---
 
-- ### Workspace/Waybar  : 
-![Desktop](./.stow-local-ignore/ss-desktop.png "Workspace/waybar/hyprpaper")
+## Screenshots
 
-- ### Wofi (Application Launcher)  : 
-![Desktop](./.stow-local-ignore/ss-wofi.png "Wofi/Application Launcher")
+### Desktop / Waybar
 
-- ### Neofetch/Nvim/Cava
-![Desktop](./.stow-local-ignore/ss-tielesNall.png "TCHHH")
+![Desktop](./.stow-local-ignore/ss-desktop.png)
+
+### Wofi
+
+![Wofi](./.stow-local-ignore/ss-wofi.png)
+
+### Terminal Setup
+
+![Terminal](./.stow-local-ignore/ss-tielesNall.png)
 
