@@ -2,7 +2,8 @@
 
 Personal Config. for Linux (Arch btw) with hyprland as window manager.
 
-[Need Help Installing Arch?](./.stow-local-ignore/ArchInstall.md)
++[ArchInstall (the hard way)](./.stow-local-ignore/ArchInstall.md)
++[Wallpaper Dir](www.github.com/neoayus/.backgrounds)
 
 ## Stack
 
@@ -10,7 +11,7 @@ Personal Config. for Linux (Arch btw) with hyprland as window manager.
 
 * Hyprland
 
-### Core Apps
+#### Core Apps
 
 * wofi — launcher
 * waybar — status bar
@@ -22,23 +23,22 @@ Personal Config. for Linux (Arch btw) with hyprland as window manager.
 * hyprpaper — wallpapers
 * starship — shell prompt
 
-### Shell
+#### Shell
 
 * zsh
 * zplug
 
-### Theming
+#### Theming
 
 * nwg-look
 * lxappearance
 * qt5ct
 
-### Fonts
+#### Fonts
 
 * Cascadia Code
 * nerd fonts
 
----
 
 ## Keybindings
 

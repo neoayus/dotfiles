@@ -2,14 +2,17 @@
 
 This document serves as a guide for setting up Arch Linux and includes a list of explicitly installed packages with their purposes to replicate or troubleshoot the setup on another machine.
 
-# Linux Help : 
-Installing Arch the Hard Way (skipped Swap Memory, lvm installtion and encryption) : https://youtu.be/FxeriGuJKTM?si=3P1akvClK2gFw_RB 
-An Arch Linux Installation Guid (w Swap Memory Installation): https://youtu.be/BUYFe5ejxfo?si=J0fteAP6ZNOXUMrn
+[Installing Arch the Hard Way](https://youtu.be/FxeriGuJKTM?si=3P1akvClK2gFw_RB)
+- lvm installtion and encryption  
+- skipped Swap Memory
 
-Using these two Videos as Reference, i build this to reference to Install Arch Next Time on a New Machine. 
+[An Arch Linux Installation Guid](https://youtu.be/BUYFe5ejxfo?si=J0fteAP6ZNOXUMrn) 
+- did initialize Swap Memory.
+
+Using these two YT Tutorial as Reference, i wrote thee comamnds to run on fresh Arch ISO to to Install Arch next time on new machine. 
 [Install Arch the Hard Way.](./TheHardWay.md)
 
-## Mounting Problem :** 
+## Mounting USB Devices 
 - If There's a Problem on mounting an External USB Device like an Android, flash drive or Hardisk 
 - https://youtu.be/utHUlE1d4SE?si=_5PQiIzLh5OHT240
 
@@ -92,6 +95,15 @@ Using these two Videos as Reference, i build this to reference to Install Arch N
 - **pamixer**: Command-line audio mixer.
 - **alsa-utils**: Advanced Linux Sound Architecture utilities.
 
+### Microphpone 
+Was having some problems with my mic, that is because i din't had the right drivers and softwares to control how it behaves, these packages helped me fix that.. 
+- pipewire
+- pipewire-alsa 
+- pipewire-pulse 
+
+then i ran this command `systemctl --user enable --now pipewire pipewire-pulse ` 
+and adjust sum equalisers inside 'alsamixer' package and you are good to go :) PS: I forgot to save the configuration for alsomixer, here's how i did it using `sudo alsactl store ` 
+
 ### Development Tools
 - **git**: Version control system.
 - **nodejs**: JavaScript runtime.
@@ -115,32 +127,10 @@ Using these two Videos as Reference, i build this to reference to Install Arch N
 
 ## Custom YAY Packages 
 
-### cava 
-- **Purpose**: A console-based audio visualizer for Alsa and Pulseaudio. Used for visualizing audio in the terminal.
+- **cava**: Console-based audio visualizer for ALSA and PulseAudio.
+- **hyprshot**: Screenshot tool designed for the Hyprland window manager.
+- **yay**: AUR helper for managing packages from the Arch User Repository.
 
-### hyprshot 
-- **Purpose**: A screenshot tool designed for the Hyprland window manager.
-
-### libva-vdpau-driver-shadow-nvidia 
-- **Purpose**: A compatibility layer for VA-API and VDPAU using NVIDIA drivers. Facilitates hardware-accelerated video playback.
-
-### libva-vdpau-driver-shadow-nvidia-debug 
-- **Purpose**: Debug version of the above driver for troubleshooting and development.
-
-### yay 
-- **Purpose**: A popular AUR helper to manage packages from the Arch User Repository (AUR).
-
-### yay-debug 
-- **Purpose**: Debug version of yay for debugging and development purposes.
-
-### Spotify 
-For Spotify Adblocker, i used : https://github.com/abba23/spotify-adblock-linux
-
-### Microphpone 
-I was having some problems with my mic, that is because i din't had the right drivers and softwares to control how it behaves, these packages helped me fix that.. 
-- pipewire
-- pipewire-alsa 
-- pipewire-pulse 
-
-then i ran this command `systemctl --user enable --now pipewire pipewire-pulse ` 
-and adjust sum equalisers inside 'alsamixer' package and you are good to go :) PS: I forgot to save the configuration for alsomixer, here's how i did it using `sudo alsactl store ` 
+### Video Acceleration (NVIDIA)
+- **libva-vdpau-driver-shadow-nvidia**: Compatibility layer for VA-API and VDPAU using NVIDIA drivers for hardware-accelerated video playback.
+- **libva-vdpau-driver-shadow-nvidia-debug**: Debug version of the NVIDIA VA-API/VDPAU compatibility driver.
