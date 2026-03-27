@@ -17,7 +17,6 @@ qt-tools
 spicetify
 starship
 tmux
-vscode
 waybar
 waypaper
 wlogout
