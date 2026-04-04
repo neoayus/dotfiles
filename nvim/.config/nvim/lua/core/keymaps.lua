@@ -80,3 +80,5 @@ keymap('v', 'K', ":m '<-2<CR>gv=gv", opts)
 -- remove highlight 
 keymap('n', '<leader>h', ':nohlsearch<CR>', opts)
 
+-- make executable files 
+keymap('n', '<leader>x', ':!chmod +x %<CR>', { noremap = true, silent = true })
