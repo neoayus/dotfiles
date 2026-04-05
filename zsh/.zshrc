@@ -31,6 +31,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 ## Add Nvim to PATH for "Obsidian's Communit Plugin" 
 # export PATH="/usr/bin/nvim:$PATH"
+#
+
+export PATH="$HOME/.local/bin:$PATH"
 
 
 ### Added by Zinit's installer
@@ -113,3 +116,6 @@ alias feh='feh --scale-down --auto-zoom --force-aliasing --geometry 1600x900' # 
 
 # enable zsh VI-mode 
 bindkey -v
+
+# daily note shortcut key 
+alias qn='~/.local/bin/daily-notes.sh'
