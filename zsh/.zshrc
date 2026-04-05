@@ -110,3 +110,6 @@ alias gs='git status'
 
 # change feh default behaviour 
 alias feh='feh --scale-down --auto-zoom --force-aliasing --geometry 1600x900' # in terminal 
+
+# enable zsh VI-mode 
+bindkey -v
