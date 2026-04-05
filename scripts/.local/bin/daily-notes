@@ -1,0 +1,16 @@
+!/bin/bash
+
+NOTES_DIR="$HOME/notes/daily-notes"
+TODAY=$(date +%F)
+FILE="$NOTES_DIR/$TODAY.md"
+
+# Create directory if not exists
+mkdir -p "$NOTES_DIR"
+
+# Create file if not exists
+if [ ! -f "$FILE" ]; then
+    echo "# Notes $TODAY" > "$FILE"
+fi
+
+# Launch kitty in special workspace with the notes file
+hyprctl dispatch exec "[workspace special silent; float; size 70% 60%; center] kitty nvim $FILE"
