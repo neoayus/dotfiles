@@ -17,6 +17,7 @@ echo "Starting installation..."
 
 echo "Upading Pacman database..."
 sudo pacman -Sy --noconfirm  
+
 # ------------------------
 # Pacman packages
 # ------------------------

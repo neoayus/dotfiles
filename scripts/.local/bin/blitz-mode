@@ -14,7 +14,9 @@ if [ "$blitz_mode" = "1" ]; then
         keyword general:gaps_out 0;
         keyword general:border_size 1;
     "
+    powerprofilectl set power-saver 
     notify-send "Blitz Mode" "Performance mode enabled"
+    exit
 else
     # Return to normal config
     hyprctl reload
