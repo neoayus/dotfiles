@@ -75,13 +75,13 @@ bash install.sh
 
 ### Desktop / Waybar
 
-![desktop](./.stow-local-ignore/desktop.png)
+![desktop](./.stow-local-ignore/assets//desktop.png)
 
 ### Wofi
 
-![wofi](./.stow-local-ignore/wofi.png)
+![wofi](./.stow-local-ignore/assets//wofi.png)
 
 ### Terminal Setup
 
-![terminal](./.stow-local-ignore/tiles.png)
+![terminal](./.stow-local-ignore/assets//tiles.png)
 
