@@ -119,3 +119,6 @@ bindkey -v
 
 # daily note shortcut key 
 alias qn='~/.local/bin/daily-notes.sh'
+
+# Script Shortcuts 
+alias cht.sh="~/.local/bin/cheetsheet"
