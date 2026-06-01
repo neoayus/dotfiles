@@ -110,6 +110,7 @@ export PATH=$PATH:$HOME/.spicetify
 
 # git aliases 
 alias gs='git status'
+alias justcommit='git commit --allow-empty-message -m ""'
 
 # change feh default behaviour 
 alias feh='feh --scale-down --auto-zoom --force-aliasing --geometry 1600x900' # in terminal 
