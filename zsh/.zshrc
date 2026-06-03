@@ -25,6 +25,10 @@ export VISUAL=$EDITOR
 export QT_QPA_PLATFORMTHEME=qt6ct
 export XDG_CURRENT_DESKTOP=KDE
 
+# Cursor Theme 
+export XCURSOR_THEME=oreo-black-cursor
+export XCURSOR_SIZE=06
+
 ## Java Environment
 export JAVA_HOME=/usr/lib/jvm/java-17-temurin 
 export PATH=$JAVA_HOME/bin:$PATH
