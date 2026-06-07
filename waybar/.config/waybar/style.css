@@ -8,8 +8,8 @@
 }
 
 window#waybar {
-  background: transparent ;
-  color: #ebdbb2;
+  background: transparent;
+  color: #282828;
 }
 
 tooltip {
@@ -19,6 +19,7 @@ tooltip {
   border-style: solid;
   border-color: #1d2021;
 }
+
 #workspaces button {
   padding: 0 0.4em;
   color: #504945;
@@ -68,6 +69,7 @@ tooltip {
   margin-top: 4px;
   margin-bottom: 4px;
   border-radius: 6px;
+  color: #ebdbb2;
 }
 
 #tray {
