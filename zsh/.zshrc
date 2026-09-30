@@ -85,7 +85,7 @@ alias .react='cd ~/Hub/gitHub/react-revisit/'
 alias brb='hyprlock' 
 
 # commands to sleep and poweroff 
-# alias gunnite='systemctl suspend' 
+alias gunnite='systemctl suspend' 
 alias bye='systemctl poweroff'
 
 # keyboard backlid command
