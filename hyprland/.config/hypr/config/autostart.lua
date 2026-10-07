@@ -1,0 +1,12 @@
+-- Startup applications. This callback runs once when Hyprland starts.
+hl.on("hyprland.start", function()
+    hl.exec_cmd("uwsm app -- xdg-desktop-portal-hyprland")
+    hl.exec_cmd("uwsm app -- wl-paste -p --watch wl-copy -pc")
+    hl.exec_cmd("uwsm app -- systemctl --user start hyprpolkitagent")
+    hl.exec_cmd("swaync")
+    hl.exec_cmd("hypridle")
+    hl.exec_cmd("waybar")
+    hl.exec_cmd("awww-daemon")
+    hl.exec_cmd("hyprctl setcursor oreo-black-cursor 06")
+    hl.exec_cmd("waypaper --restore")
+end)

@@ -1,0 +1,5 @@
+-- No monitor configuration was present in the supplied monitors.conf.
+-- The pasted content under that heading was a duplicate of keybindings.conf.
+-- Add monitor definitions here when you have the intended output/mode/layout.
+-- Example:
+-- hl.monitor({ output = "DP-1", mode = "preferred", position = "auto", scale = 1 })
